@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-critters-container>
+<html lang="en" style="height: 1px;" data-critters-container>
 <head>
   <meta charset="utf-8">
   <title>EasyGunny - Gunny huyền thoại phiên bản 4.1</title>
@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css">
   <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css">
   <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css">
-<style>body{margin:0;font-size:17px;overflow-x:hidden;scroll-behavior:smooth}*{box-sizing:border-box}
-</style><link rel="stylesheet" href="styles-PAU3TT53.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-PAU3TT53.css"></noscript><link rel="modulepreload" href="chunk-JJ6EOZCT.js"></head>
+<style>body{margin:0;font-size:17px;overflow-x:hidden;scroll-behavior:smooth;-webkit-transform-origin:0 0;width:2000px;height:1033px}*{box-sizing:border-box}
+</style><link rel="stylesheet" href="styles-CU4DYPZL.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-CU4DYPZL.css"></noscript><link rel="modulepreload" href="chunk-NOGFC64H.js"></head>
 <body>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSVV4V7E94"></script>
@@ -20,6 +20,16 @@
   gtag('js', new Date());
 
   gtag('config', 'G-PSVV4V7E94');
+  var baseWidth = 2000;
+  var scale = 1;
+
+  function reportWindowSize() {
+    scale = window.innerWidth / 2000;
+    document.body.style.transform = 'scale('+scale+')';
+  }
+  reportWindowSize();
+
+  window.onresize = reportWindowSize;
 </script>
 <!--<div class="app-loading">-->
 <!--  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgba(255, 255, 255, 0); display: block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">-->
@@ -33,5 +43,5 @@
 <!--  </svg>-->
 <!--</div>-->
 <app-root></app-root>
-<script src="polyfills-K3CRPOEY.js" type="module"></script><script src="main-KMVZNODU.js" type="module"></script></body>
+<script src="polyfills-K3CRPOEY.js" type="module"></script><script src="main-TK4V6YUU.js" type="module"></script></body>
 </html>
